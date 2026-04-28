@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "slocator-models"
+version = "0.1.1"
+description = "Shared Pydantic models for Slocator services"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=1.8.2",
+    "fastapi>=0.65.2",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["all_types"]
