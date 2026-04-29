@@ -4,7 +4,7 @@ from fastapi import UploadFile
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 from preloaded_constants import ALL_POI_CATEGORIES_LOWER
-from all_types.internal_types import (
+from .internal_types import (
     CatalogItems,
     Intelligences,
     NonGeoStdPoint,

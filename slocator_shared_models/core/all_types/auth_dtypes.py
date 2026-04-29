@@ -1,6 +1,6 @@
 from typing import Dict, List, TypeVar, Generic, Optional, Any
 from pydantic import BaseModel
-from all_types.internal_types import UserId
+from .internal_types import UserId
 
 class EmailBase(BaseModel):
     email: str
