@@ -2,7 +2,7 @@ from typing import Dict, List, TypeVar, Generic, Literal, Any, Optional, Union
 
 from pydantic import BaseModel, Field
 
-from all_types.internal_types import (
+from .internal_types import (
     CatalogMetaData,
     CatalogNonLayerItems,
     Feature,
@@ -13,7 +13,7 @@ from all_types.internal_types import (
     CatalogItems,
     UserCatalogItemInfo,
 )
-from all_types.request_dtypes import ReqFetchDataset
+from .request_dtypes import ReqFetchDataset
 
 T = TypeVar("T")
 

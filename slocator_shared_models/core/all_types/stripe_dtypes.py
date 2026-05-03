@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 from pydantic import BaseModel, Field, ConfigDict, field_validator, model_validator
 from typing import Dict, List, TypeVar, Generic, Literal, Any, Optional, Union
-from all_types.request_dtypes import ReqCityCountry
-from all_types.internal_types import UserId
+from .request_dtypes import ReqCityCountry
+from .internal_types import UserId
 from preloaded_constants import ALL_POI_CATEGORIES, REPORTS_PACKAGES, AREA_INTELLIGENCE_CATEGORIES
 
 
